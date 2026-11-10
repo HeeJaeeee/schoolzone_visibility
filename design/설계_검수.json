@@ -1,0 +1,18 @@
+{
+  "six_required_topics_present": true,
+  "ppt_mapping_slides": 10,
+  "planned_presentation_seconds": 280,
+  "scope": "sustained vehicle observations around crosswalk entry; no new short-event hazard detector",
+  "selected_videos": 24,
+  "training_candidate_videos": 12,
+  "training_candidate_episodes": 6,
+  "verified_training_xml": 720,
+  "development_videos": 6,
+  "training_excluded_reproduction_videos": 6,
+  "episode_overlap": 0,
+  "all_selected_sources_and_xml_exist": true,
+  "implementation_completed": false,
+  "retraining_completed": false,
+  "ppt_modified": false,
+  "unsolved_gate": "Actual entry and waiting-lane profiles and their reproduction must pass before claiming signal-waiting handling solved."
+}

@@ -1,0 +1,82 @@
+{
+  "night_A": {
+    "name": "야간 단일로 횡단보도 A",
+    "video": "2020_11_13_18_30_suddenlyappear_night_A_11.mp4",
+    "region": [[0.33,0.22],[0.66,0.20],[0.69,0.43],[0.31,0.45]],
+    "waiting_region": null,
+    "signal_roi": null,
+    "note": "횡단보도 건너편 도로, 신호 없는 횡단보도라 신호대기 차로 없음"
+  },
+  "night_B": {
+    "name": "야간 단일로 횡단보도 B",
+    "video": "2020_11_13_18_30_suddenlyappear_night_B_11.mp4",
+    "region": [[0.41,0.22],[0.66,0.22],[0.70,0.37],[0.47,0.41]],
+    "waiting_region": null,
+    "signal_roi": null,
+    "note": "같은 횡단보도의 반대 시점, 횡단보도 왼쪽 도로"
+  },
+  "day_1": {
+    "name": "주간 교차로 A",
+    "video": "2020_11_10_12_02_suddenlyappear_sun_A_1.mp4",
+    "region": [[0.62,0.30],[0.90,0.27],[0.93,0.42],[0.66,0.46]],
+    "waiting_region": [[0.12,0.06],[0.32,0.06],[0.32,0.20],[0.12,0.20]],
+    "signal_roi": null,
+    "note": "보행자가 모이는 모퉁이 앞 도로, 먼 정지선 차로는 신호대기"
+  },
+  "day_2": {
+    "name": "주간 교차로 B",
+    "video": "2020_11_10_12_41_suddenlyappear_sun_A_2.mp4",
+    "region": [[0.42,0.30],[0.62,0.26],[0.72,0.48],[0.46,0.52]],
+    "waiting_region": [[0.18,0.10],[0.28,0.10],[0.28,0.20],[0.18,0.20]],
+    "signal_roi": null,
+    "note": "두 횡단보도 사이 모퉁이 도로, 먼 정지선 차로는 신호대기"
+  },
+  "signal_A": {
+    "name": "야간 교차로 정지 후 진행 A",
+    "video": "2020_11_10_20_05_suddenlyappear_night_A_10.mp4",
+    "region": [[0.12,0.30],[0.70,0.28],[0.72,0.48],[0.14,0.52]],
+    "waiting_region": [[0.73,0.08],[0.95,0.08],[0.95,0.21],[0.73,0.21]],
+    "signal_roi": null,
+    "note": "횡단보도 바로 앞 도로, 건너편 정지선 차로는 신호대기"
+  },
+  "signal_B": {
+    "name": "야간 교차로 정지 후 진행 B",
+    "video": "2020_11_10_20_05_suddenlyappear_night_B_10.mp4",
+    "region": [[0.18,0.30],[0.65,0.30],[0.65,0.50],[0.15,0.50]],
+    "waiting_region": [[0.01,0.02],[0.20,0.02],[0.20,0.19],[0.01,0.19]],
+    "signal_roi": null,
+    "note": "같은 사건 반대 시점, 횡단보도 바로 앞 도로"
+  },
+  "pass_A": {
+    "name": "야간 통과 차량 A",
+    "video": "2020_11_09_20_22_suddenlyappear_night_A_10.mp4",
+    "region": [[0.62,0.36],[0.82,0.30],[0.90,0.42],[0.66,0.50]],
+    "waiting_region": null,
+    "signal_roi": null,
+    "note": "횡단보도 앞 진입 도로, 차량이 지나가기만 하는 대조 장면"
+  },
+  "pass_B": {
+    "name": "야간 통과 차량 B",
+    "video": "2020_11_09_20_22_suddenlyappear_night_B_10.mp4",
+    "region": [[0.27,0.20],[0.42,0.19],[0.50,0.36],[0.28,0.40]],
+    "waiting_region": null,
+    "signal_roi": null,
+    "note": "횡단보도 건너편 도로, 울타리 뒤 주차장 차량은 구역 밖"
+  },
+  "held_A": {
+    "name": "주간 교차로 통과 A",
+    "video": "2020_11_12_12_30_suddenlyappear_sun_A_2.mp4",
+    "region": [[0.40,0.31],[0.72,0.31],[0.72,0.60],[0.40,0.60]],
+    "waiting_region": null,
+    "signal_roi": null,
+    "note": "횡단보도와 그 앞 도로, 회전 차량이 지나가는 대조 장면"
+  },
+  "held_B": {
+    "name": "주간 교차로 통과 B",
+    "video": "2020_11_12_12_30_suddenlyappear_sun_B_2.mp4",
+    "region": [[0.40,0.25],[0.70,0.25],[0.70,0.53],[0.40,0.53]],
+    "waiting_region": null,
+    "signal_roi": null,
+    "note": "같은 사건 반대 시점, 횡단보도와 그 앞 도로"
+  }
+}

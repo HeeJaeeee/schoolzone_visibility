@@ -1,0 +1,29 @@
+{
+  "purpose": "Vehicle/person detection for crosswalk blind-spot illegal-stop alerts",
+  "selected_weights": "weights/detector_v4.pt",
+  "selected_model": "YOLO26n (2,700장 학습)",
+  "weights_sha256": "00df2b9bf6fdb981417f6cdde87af437424b4ebba64846203e956580ceb01a88",
+  "confidence": 0.25,
+  "image_size": 1280,
+  "model_class_to_canonical": {
+    "0": 0,
+    "2": 1,
+    "5": 1,
+    "7": 1
+  },
+  "canonical_names": {
+    "0": "person",
+    "1": "vehicle"
+  },
+  "expected_model_names": {
+    "0": "person",
+    "2": "vehicle",
+    "5": "bus",
+    "7": "truck"
+  },
+  "training_run": "runs/v4c",
+  "training": "train_v4.py train name=v4c freeze=10 epochs=12 patience=6 warmup_epochs=1 close_mosaic=3 (best = epoch 1 by val)",
+  "training_images": 2700,
+  "selection": "highest validation vehicle AP50-95/F1 among v4, v4b, v4c (alerts depend on vehicles only)",
+  "previous_weights": "weights/detector.pt (v3)"
+}
